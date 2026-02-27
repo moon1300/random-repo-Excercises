@@ -6,3 +6,9 @@
 function compare(x,y) {
     return x === y;
 }
+
+// repl:
+// compare(10,6)
+// returns false
+// compare(10,10)
+// returns true
