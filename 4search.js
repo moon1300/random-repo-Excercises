@@ -13,7 +13,7 @@ function searchBooks(library, authorName) {
     if (booksByAuthor.length === 0) {
         return 'NOT FOUND';
     }
-    return booksByAuthor.map(book => book.title).join(', ');
+    return booksByAuthor.map(book => book.title).join(',');
 }
 
 /* in repl:
